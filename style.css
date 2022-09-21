@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins, sans-serif";
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #699;
+}
+.container {
+  width: 605px;
+  background: #fff;
+  border-radius: 2%;
+  box-shadow: 0px 5px 10px 0px;
+}
+.container header {
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: normal;
+  border-bottom: 1px 0 0;
+}
+.container .content {
+  margin: 35px 0px;
+}
+.content .quote-area {
+  display: flex;
+  justify-content: center;
+}
+.quote-area i {
+  font-size: 15px;
+}
+.quote-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+.quote-area .quote {
+  font-size: 22px;
+  text-align: center;
+  word-break: break;
+  font-family: monospace;
+}
+
+.content .author {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: 2px;
+  font-style: italic;
+}
+
+.author span:first-child {
+  margin: -7px 30px 0 0;
+  font-family: monospace;
+}
+.container .buttons {
+  border-top: 1px solid #ccc;
+}
+.buttons .features {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.features ul {
+  display: flex;
+}
+.features ul li {
+  list-style: none;
+  display: flex;
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #53272f; */
+  border-radius: 50%;
+}
+.features ul li:hover {
+  color: #fff;
+  background: #699;
+}
+.features button {
+  border: none;
+  outline: none;
+  padding: 13px;
+  background: #699;
+  color: #fff;
+  cursor: pointer;
+  text-style: italic;
+  margin-top: 60px;
+  font-family: monospace;
+  border-radius: 30px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #ff8c74;
+  transition: 0.2s;
+}
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+.gallery button {
+  text-decoration: none;
+}
+.gallery:hover {
+  background-color: #ff8c74;
+  transition: 0.2s;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+}
+.clock .time {
+  font-family: "Libre BaskerVVille", serif;
+  letter-spacing: 2rem;
+  marigin-bottom: 16px;
+  font-size: 36px;
+  display: flex;
+  justify-contet: center;
+
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 2rem;
+  margin-bottom: 90px;
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+}
+.gallery {
+  background: #ffb28f;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 13px;
+  width: 50vw;
+  letter-spacing: 2rem;
+  color: #fff;
+  cursor: pointer;
+  text-style: italic;
+  margin-top: 16px;
+  font-family: monospace;
+  border-radius: 30px;
+  font-size: 26px;
+  box-shadow: 0px 5px 10px 0px black;
+  text-decoration: none;
+}
+.gallery button:hover {
+  background-color: grey;
+}
+.row .btn {
+  background: #ffb28f;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 13px;
+  width: 50vw;
+  letter-spacing: 2rem;
+  color: #fff;
+  cursor: pointer;
+  text-style: italic;
+
+  font-family: monospace;
+  border-radius: 30px;
+  font-size: 26px;
+  box-shadow: 0px 5px 10px 0px black;
+  text-decoration: none;
+}
+.row .btn:hover {
+  transition: 0.3s;
+  background: #ffc28f;
+}
+@media (max-width: 768px) {
+  .row .btn {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .row .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .row .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
